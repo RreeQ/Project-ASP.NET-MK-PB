@@ -12,6 +12,9 @@ namespace WebApplication10
             System.Console.WriteLine("Test1");
             System.Console.WriteLine("Test 2 youki");
             System.Console.WriteLine("Test 3 Marcin");
+
+            System.Console.WriteLine("Test 4 Marcin");
+
         }
     }
 }
