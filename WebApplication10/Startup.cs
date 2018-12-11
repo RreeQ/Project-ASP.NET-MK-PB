@@ -9,6 +9,7 @@ namespace WebApplication10
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            System.Console.WriteLine("Test1");
         }
     }
 }
