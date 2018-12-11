@@ -10,6 +10,7 @@ namespace WebApplication10
         {
             ConfigureAuth(app);
             System.Console.WriteLine("Test1");
+            System.Console.WriteLine("Test2");
         }
     }
 }
