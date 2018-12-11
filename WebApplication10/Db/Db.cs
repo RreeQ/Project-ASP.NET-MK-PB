@@ -15,5 +15,6 @@ namespace WebApplication10.DbContext
         }
         public DbSet<HotDog> HotDog { get; set; }
         public DbSet<Sauce> Sauces { get; set; }
+
     }
 }

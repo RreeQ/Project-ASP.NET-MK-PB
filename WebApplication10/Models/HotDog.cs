@@ -14,5 +14,7 @@ namespace WebApplication10.Models
         public int SauceId { get; set; }
         public Sauce Sauce { get; set; }
         public int Phone { get; set; }
+
+
     }
 }

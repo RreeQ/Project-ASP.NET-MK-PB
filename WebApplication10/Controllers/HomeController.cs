@@ -68,7 +68,6 @@ namespace WebApplication10.Controllers
                 }
                 else
                 {
-                    string date = DateTime.Now.ToString();
                     var hotDogToUpdate = _db.HotDog.Single(x => x.Id == hotDog.Id);
                     hotDogToUpdate.Name = hotDog.Name;
                     hotDogToUpdate.Phone = hotDog.Phone;
@@ -87,7 +86,6 @@ namespace WebApplication10.Controllers
                 return View("HotDogForm", hotDogWithSauceViewModel);
             }
         }
-        
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
