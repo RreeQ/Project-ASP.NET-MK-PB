@@ -14,7 +14,7 @@ namespace WebApplication10
             System.Console.WriteLine("Test 3 Marcin");
 
             System.Console.WriteLine("Test 4 Marcin");
-            System.Console.WriteLine("Dziala !");
+            System.Console.WriteLine("Dziala ");
 
         }
     }
